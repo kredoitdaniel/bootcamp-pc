@@ -1,0 +1,15 @@
+.card {
+    /* border: 3px solid red; */
+    width: 300px;
+    height: 400px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 5px 5px 10px 1px gray;
+}
+
+.img-profile {
+    width: 100%;
+}
+
+.card-body {
+    padding-left: 10px;
+}

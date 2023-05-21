@@ -1,0 +1,203 @@
+/* BORDER
+
+    border: border-width border-style border-color
+*/
+
+.solid {
+    border: 5px solid tomato;
+}
+
+.dotted {
+    border: 5px dotted teal;
+}
+
+.dashed {
+    border: 5px dashed crimson;
+}
+
+.double {
+    border: 5px double seagreen;
+}
+
+.groove {
+    border: 5px groove purple;
+}
+
+.ridge {
+    border: 5px ridge gray;
+}
+
+.inset {
+    border: 5px inset dodgerblue;
+}
+
+.outset {
+    border: 5px outset goldenrod;
+}
+
+.radius {
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+/* Border Specific Side */
+.border-top {
+    border-top: 5px solid tomato;
+}
+
+.border-right {
+    border-right: 5px solid teal;
+}
+
+.border-bottom {
+    border-bottom: 5px solid seagreen;
+}
+
+.border-left {
+    border-left: 5px solid purple;
+}
+
+
+/* overflow 
+    value: 
+        hidden
+        scroll
+        auto
+*/
+.overflow {
+    background-color: teal;
+    height: 150px;
+    width: 300px;
+    overflow: auto;
+}
+
+/* 
+    box-shadow: h-offset v-offset blur spread color 
+*/
+.box-shadow {
+    box-shadow: 10px 15px 10px 5px red;
+    width: 300px;
+}
+
+
+/* 
+    box-sizing: border-box;  -> maintain the value of height and width
+    box-sizing: content-box; -> adding borders and padding to the height and width
+*/
+.box-sizing1 {
+    border: 3px solid tomato;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.box-sizing2 {
+    border: 10px solid teal;
+    width: 100px;
+    height: 100px;
+    box-sizing: content-box;
+}
+
+
+/* Centering Content */
+.text-center {
+    border: 3px solid tomato;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.center-block {
+    border: 3px solid teal;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* floating */
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.clear-right {
+    /* clear: right; */
+}
+
+.clear-both {
+    clear: both;
+}
+
+
+/* CSS Activity 2 */
+.card {
+    /* border: 3px solid red; */
+    width: 300px;
+    height: 400px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 5px 5px 10px 1px gray;
+}
+
+.img-profile {
+    width: 100%;
+}
+
+.card-body {
+    padding-left: 10px;
+}
+
+
+/* CSS Position
+    1. static = default position and it is fixed
+    2. relative
+*/
+.static {
+    width: 200px;
+    height: 200px;
+    border: 3px solid tomato;
+    margin-bottom: 10px;
+    /* left: 200px; it is not supported since static is fixed */
+}
+
+.relative {
+    width: 200px;
+    height: 200px;
+    border: 3px solid teal;
+    position: relative;
+    left: 200px;
+    bottom: 100px;
+}
+
+.absolute {
+    width: 200px;
+    height: 200px;
+    border: 3px solid darksalmon;
+    position: absolute;
+    /* left: 100px; */
+    right: 0;
+    top: 0;
+}
+
+.parent-absolute {
+    width: 300px;
+    height: 300px;
+    border: 3px solid blue;
+    position: relative;
+}
+
+.child-absolute {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    right: 0;
+}
+
+
